@@ -1,18 +1,20 @@
-@media screen and (min-width:1190px){
-    body{
+@media screen and (min-width:1190px) {
+    body {
         color: #020253;
         font-family: 'Heebo', sans-serif;
         font-weight: bold;
     }
-    .container{
+
+    .container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-      
+
     }
+
     /*form*/
-    .form-control{
-       
+    .form-control {
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -20,118 +22,131 @@
         margin-right: 100px;
 
     }
-    p{
+
+    p {
         text-align: center;
     }
-    
-    input{
+
+    input {
         border: none;
-    background-color: lightgray;
-    border-bottom: 2px solid #020253;
-    margin-bottom: 5px;
-    min-width: 300px;
+        background-color: lightgray;
+        border-bottom: 2px solid #020253;
+        margin-bottom: 5px;
+        min-width: 300px;
+        line-height: 1.5;
     }
-    button{
+
+    button {
         color: white;
         background-color: #020253;
         padding: 5px 20px;
         margin-top: 10px;
         font-weight: bold;
-   
+
     }
-    
+
     /*image*/
-    img{
+    img {
         width: 98vh;
     }
 }
 
 
 
-@media screen and (min-width:890px) and (max-width:1190px){
-    body{
+@media screen and (min-width:890px) and (max-width:1190px) {
+    body {
         color: #020253;
         font-family: 'Heebo', sans-serif;
         font-weight: bold;
     }
-    
-    .container{
+
+    .container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         gap: 50px;
     }
-    p{
+
+    p {
         text-align: center;
     }
 
     /*form*/
 
-    
-    .form-control{
+
+    .form-control {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-right: 30px;
     }
-    
-    input{
+
+    input {
         border: none;
-    background-color: lightgray;
-    border-bottom: 2px solid #020253;
-    margin-bottom: 5px;
-    min-width: 300px;
+        background-color: lightgray;
+        border-bottom: 2px solid #020253;
+        margin-bottom: 5px;
+        min-width: 280px;
+        line-height: 1.5;
     }
-    button{
+
+    button {
         color: white;
         background-color: #020253;
         padding: 5px 20px;
         margin-top: 10px;
         font-weight: bold;
-   
+
     }
 
     /*image*/
-    img{
+    img {
         width: 90vh;
     }
-    
+
 }
-@media screen and (max-width:890px){
-    body{
+
+@media screen and (max-width:890px) {
+    body {
         color: #020253;
         font-family: 'Heebo', sans-serif;
         font-weight: bold;
     }
 
     /*form*/
-    .form-control{
+    .form-control {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 20px;
-        
+
     }
-   
-    input{
+
+    p {
+        text-align: center;
+    }
+
+    input {
         border: none;
-    background-color: lightgray;
-    border-bottom: 2px solid #020253;
-    margin-bottom: 10px;
-    min-width: 300px;
+        background-color: lightgray;
+        border-bottom: 2px solid #020253;
+        margin-bottom: 10px;
+        min-width: 280px;
+        line-height: 1.5;
     }
-    button{
+
+    button {
         color: white;
         background-color: #020253;
-        padding: 5px 20px;
+        padding: 6px 25px;
         margin-top: 10px;
         font-weight: bold;
-   
+
     }
 
     /*image*/
-    img{
+    img {
         width: 100%;
     }
 }
